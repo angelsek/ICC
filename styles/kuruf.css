@@ -1,0 +1,55 @@
+.kuruf-race-creator .kuruf-race-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.kuruf-race-creator .kuruf-race-image {
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--color-border-light-tertiary, #782e22);
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.kuruf-race-creator .kuruf-race-name {
+  flex: 1 1 auto;
+}
+
+.kuruf-race-creator fieldset {
+  margin-bottom: 0.75rem;
+}
+
+.kuruf-race-creator .kuruf-race-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.5rem;
+}
+
+.kuruf-race-creator .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+}
+
+.kuruf-race-creator .kuruf-trait-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  gap: 0.5rem;
+  align-items: start;
+  margin-bottom: 0.5rem;
+}
+
+.kuruf-race-creator .kuruf-remove-trait {
+  flex: 0 0 auto;
+}
+
+button.kuruf-create-race {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+}

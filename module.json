@@ -1,0 +1,34 @@
+{
+  "id": "kuruf",
+  "title": "Kuruf",
+  "description": "Herramientas para crear contenido personalizado (razas, trasfondos, atributos y más) para D&D 5e en Foundry VTT y aplicarlo directamente a los personajes.",
+  "authors": [
+    { "name": "angelsek" }
+  ],
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/kuruf.mjs"
+  ],
+  "styles": [
+    "styles/kuruf.css"
+  ],
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" },
+    { "lang": "es", "name": "Español", "path": "lang/es.json" }
+  ]
+}
