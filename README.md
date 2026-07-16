@@ -9,7 +9,7 @@
 > https://github.com/angelsek/GrimorioLabs/releases/download/Race_Creator-v0.1.0/module.json
 > ```
 >
-> El código que queda en este repositorio ya no se actualiza; se conserva solo como referencia histórica.
+> El código del módulo se eliminó de este repositorio para evitar confusiones; usa siempre GrimorioLabs como fuente.
 
 ---
 
