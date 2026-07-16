@@ -9,7 +9,21 @@ Módulo para **Foundry Virtual Tabletop** (v12/v13) orientado al sistema **D&D 5
 
 ## Instalación
 
-1. Copia este repositorio dentro de la carpeta `Data/modules/kuruf` de tu instalación de Foundry (o instálalo como módulo local apuntando a `module.json`).
+### Opción A — Vía URL de manifiesto (recomendada mientras se prueba)
+
+1. En la pantalla de **Setup** de Foundry, ve a **Add-on Modules → Install Module**.
+2. Pega esta URL de manifiesto:
+   ```
+   https://raw.githubusercontent.com/angelsek/ICC/claude/foundry-tabletop-jyrevr/module.json
+   ```
+3. Pulsa **Install**. Foundry descarga el código directamente desde este branch.
+4. Para traer cambios nuevos más adelante, usa el botón de actualizar módulos (o vuelve a instalar con la misma URL).
+
+> Esta URL apunta al branch de desarrollo `claude/foundry-tabletop-jyrevr`. Cuando el módulo se fusione a la rama principal (o se publique un release), esta URL deberá actualizarse.
+
+### Opción B — Manual
+
+1. Copia este repositorio dentro de la carpeta `Data/modules/kuruf` de tu instalación de Foundry.
 2. Activa el módulo **Kuruf** en la configuración del mundo (requiere el sistema `dnd5e`).
 
 ## Uso
